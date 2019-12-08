@@ -1,0 +1,145 @@
+Ex 1.
+
+var a = 123;
+var b = 35;
+var c = 70;
+switch (a % 2 == 0) {
+  case true:
+  console.log(" even");
+  break;
+  default:
+  console.log(" odd ");
+}
+
+if( b % 2 == 0){
+  console.log(" even ");
+} else {
+  console.log(" odd ");
+}
+
+
+c % 2 == 0? console.log(" even") : console.log(" odd ");
+
+
+
+Ex 2.
+
+1.
+var a = 3;
+var b = 14;
+
+switch( a % b == 0 ) {
+  case true :
+  console.log( " 1 " )
+  break;
+  default:
+  console.log(" 0 ")
+}
+switch( b % a == 0) {
+  case true :
+  console.log(" 1 ")
+  break;
+  default:
+  console.log(" 0 ")
+2.
+var a = 18;
+var b = 2;
+
+a % b == 0? console.log(" 1 ") : console.log(" 0 ");
+b % a == 0? console.log(" 1 ") : console.log(" 0 ");
+3.
+var a = 7;
+var b = 21;
+if( a % b == 0 ) {
+  console.log(" 1 ");
+}
+else {
+  console.log(" 0 ");
+}
+if( b % a == 0 ) {
+  console.log(" 1 ");
+}
+else {
+  console.log(" 0 ");
+}
+
+
+
+
+Ex 3.
+
+1.
+var a = 3;
+var b = "";
+var c = a + b;
+var d = c + c;
+var e = c + c + c;
+var g = Number( d );
+var h = Number( e );
+console.log( a + g + h );
+2.
+var a = 17;
+var b = "";
+var c = a + b;
+var d = c + c;
+var e = c + c + c;
+var g = Number( d );
+var h = Number( e );
+console.log( a + g + h );
+3.
+var a = 100;
+var b = "";
+var c = a + b;
+var d = c + c;
+var e = c + c + c;
+var g = Number( d );
+var h = Number( e );
+console.log( a + g + h );
+
+
+Ex 4.
+1.
+var a = 367;
+var b = a % 10;
+var c = (( a - b ) % 100)/10;
+var d = (a - a % 10 - ( a - b ) % 100) / 100;
+var e = "";
+b = b + e;
+c = c + e;
+d = d + e;
+if( b != 0) {
+  console.log( b + d + c);
+}
+else {
+  console.log( a );
+}
+2.
+var b = a % 10;
+var c = (( a - b ) % 100)/10;
+var d = (a - a % 10 - ( a - b ) % 100) / 100;
+var e = "";
+b = b + e;
+c = c + e;
+d = d + e;
+if( b != 0) {
+  console.log( b + d + c);
+}
+else {
+  console.log( a );
+}
+3.
+var a = 250;
+var b = a % 10;
+var c = (( a - b ) % 100)/10;
+var d = (a - a % 10 - ( a - b ) % 100) / 100;
+var e = "";
+b = b + e;
+c = c + e;
+d = d + e;
+if( b != 0) {
+  console.log( b + d + c);
+}
+else {
+  console.log( a );
+}
+4.
